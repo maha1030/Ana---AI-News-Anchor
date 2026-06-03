@@ -2,6 +2,9 @@ import os
 import sys
 from datetime import datetime
 
+import PIL.Image
+PIL.Image.ANTIALIAS = PIL.Image.LANCZOS
+
 from moviepy.editor import (
     AudioFileClip,
     VideoFileClip,
