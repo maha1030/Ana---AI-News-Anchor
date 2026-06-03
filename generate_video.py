@@ -1,4 +1,5 @@
 import os
+import sys
 from datetime import datetime
 
 from moviepy.editor import (
@@ -11,7 +12,8 @@ from moviepy.editor import (
 
 import pysrt
 
-os.environ["IMAGEIO_FFMPEG_EXE"] = r"C:\Users\R Amutha\AppData\Local\Microsoft\WinGet\Packages\Gyan.FFmpeg_Microsoft.Winget.Source_8wekyb3d8bbwe\ffmpeg-8.1.1-full_build\bin\ffmpeg.exe"
+if sys.platform == "win32":
+    os.environ["IMAGEIO_FFMPEG_EXE"] = r"C:\Users\R Amutha\AppData\Local\Microsoft\WinGet\Packages\Gyan.FFmpeg_Microsoft.Winget.Source_8wekyb3d8bbwe\ffmpeg-8.1.1-full_build\bin\ffmpeg.exe"
 
 # -----------------------------------
 # Load latest generated audio
