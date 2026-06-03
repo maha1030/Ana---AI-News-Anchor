@@ -184,7 +184,7 @@ def show_news_section(title, category=None):
 
                         st.session_state["selected_url"] = article["url"]
 
-                        st.switch_page("pages/Generate_Broadcast.py")
+                        st.switch_page("pages/generate_broadcast.py")
 
                         st.divider()
 
