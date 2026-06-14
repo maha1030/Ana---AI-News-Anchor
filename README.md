@@ -176,21 +176,6 @@ NEWS_API_KEY=your_news_api_key
 streamlit run app.py
 ```
 
----
-
-## 📸 Screenshots
-
-Add screenshots here after generating a few broadcasts.
-
-Examples:
-
-* Home Page
-* News Feed Dashboard
-* Broadcast Generation Page
-* Generated Video Output
-* Broadcast History
-
----
 
 ## 🚀 Future Enhancements
 
